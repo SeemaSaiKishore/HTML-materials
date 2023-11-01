@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+    <title>HTML Attributes Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        .input-container {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>HTML Attributes Example</h1>
+
+    <div class="input-container">
+        <label for="txt_username">UserID:</label>
+        <input type="username" id="txt_username" placeholder="Enter your name">
+    </div>
+
+    <div class="input-container">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+    </div>
+
+    <div class="input-container">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    </div>
+
+    <div class="input-container">
+        <label for="photo">Upload Photo:</label>
+        <input type="file" id="photo" name="photo" accept="image/*">
+    </div>
+
+    <div class="input-container">
+        <label for="website">Personal Website:</label>
+        <input type="url" id="website" name="website" placeholder="Enter your website URL">
+    </div>
+
+    <div class="input-container">
+        <label for="birthdate">Birthdate:</label>
+        <input type="date" id="birthdate" name="birthdate" required>
+    </div>
+
+    <div class="input-container">
+        <label for="color">Favorite Color:</label>
+        <input type="color" id="color" name="color">
+    </div>
+
+    <div class="input-container">
+        <label for="range_id">Select a Range (1-100):</label>
+        <input type="range" id="range_id" name="range" min="1" max="100" step="1" value="50">
+    </div>
+
+    <div class="input-container">
+        <label for="checkbox">Agree to Terms:</label>
+        <input type="checkbox" id="checkbox_Terms" name="checkbox" required>
+    </div>
+
+    <div class="input-container">
+        <label for="radio1">Option 1:</label>
+        <input type="radio" id="radio1" name="radio-group" value="option1">
+</div>
+</body>
+</html>
+
